@@ -1,0 +1,26 @@
+EXPLORE
+
+DECISION
+{
+	----POPULATION
+
+	----BUDGET BASED
+
+	----DURATION BASED
+}
+
+---------------------------------------------
+
+FORM
+
+SELECT ---- DECISION
+
+NUMBER FIELD
+
+SUBMIT
+
+----------------------------------------------
+
+CALC.PHP
+
+	DISPLAY THE AVALABLE PACKAGES BASED ON THEIR INPUT

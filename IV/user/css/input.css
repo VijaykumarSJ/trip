@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}*/
+
+.header
+{
+    width: 100vw;
+    height:15vh;
+    background:linear-gradient(100deg,#aee2f1,#99e6ff);
+    display: flex;
+    justify-content: space-between;
+    padding: .7em;
+    align-items: center;
+    /* margin: auto; */
+}
+.title{
+    width: 10vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h3{
+    font-size: 1.5em;
+}
+.nav
+{
+    justify-content: space-between;
+}
+.nav a
+{
+    font-size: 1.2em;
+}
+.sidebar
+{
+	color:black;
+	text-decoration: none;
+	margin-left: 32px;
+	letter-spacing: 0.5px;
+	position: relative;
+	font-size: 18px;
+}
+.sidebar:hover
+{
+	color:white;
+}
+.sidebar::after
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	width: 0%;
+	height: 2.5px;
+	background-color: rgb(13, 204, 13);
+	transition:0.4s linear;
+}
+.sidebar:hover:after
+{
+	width: 100%;
+}
+.container
+{
+    width: 100vw;
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* margin: 9% 37%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heading
+{
+    display: flex;
+    justify-content: flex-start;
+    color: #80dfff;
+    margin-bottom: 1.3rem;
+}
+.form
+{
+    height: 35vh;
+    /* background-color: red; */
+    margin-left: -20px;
+    margin-top: 10px;
+    width: 100%;
+    max-width:300px;
+    display: flex;
+    justify-content: space-around
+}
+.login-form .input-group {
+    margin-bottom: 1rem;
+}
+
+.login-form .input-group label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.login-form .input-group input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 0.5rem;
+}
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #80dfff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+button:hover 
+{
+    background-color: #99e6ff;
+}
